@@ -1,0 +1,35 @@
+.header{
+    position: relative;
+    padding: calc(var(--section-padding-top) * 2) 0;
+}
+
+
+.header h1{
+    color: white;
+    font-family: var(--secondary-font);
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
+
+.header p{
+    color: white;
+    text-align: center;
+    padding: 4vw 30%;
+    font-size: 1.2rem;
+}
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+
+}

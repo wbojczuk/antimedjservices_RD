@@ -1,0 +1,22 @@
+"use client"
+import styles from './header.module.css';
+import Link from 'next/link';
+
+export default function Header(){
+return (
+ <header className={styles.header}>
+
+    <h1>The Sound of Your Event<span className="highlight">.</span></h1>
+    <p>We are fully licensed and insured, and we can travel up to 60 miles from our location at 1041 South Broadway Street #894, Geneva, Ohio 44041.
+    </p>
+
+    <div className={`center ${styles.linkWrapper}`}>
+        <Link className='main-link' href='/contact'>Contact</Link>
+    </div>
+ 
+ <video className='bg-img' loop autoPlay muted>
+       <source src={"/img/header-vid.mp4"} type="video/mp4" />
+</video>
+
+ </header>
+)};

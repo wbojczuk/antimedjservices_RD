@@ -1,0 +1,31 @@
+.party{
+    position: relative;
+    padding: calc(var(--section-padding-top) * 2) 0;
+    color: white;
+}
+.party h2{
+    text-align: center;
+    font-size: 4rem;
+    font-family: var(--secondary-font);
+}
+
+.party p{
+    padding: 2vw 30%;
+    text-align: center;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+
+}

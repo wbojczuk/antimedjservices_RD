@@ -1,0 +1,55 @@
+.ensure{
+    position: relative;
+    padding: var(--section-padding-top)15%;
+    color: white;
+}
+
+.ensure h2{
+    font-size: 4rem;
+    font-family: var(--secondary-font);
+}
+
+.ensure .p{
+    margin: 1vw 20% 1vw 0;
+    
+}
+
+.itemWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin: 6vw 0;
+}
+
+.item svg{
+    width: 3vw;
+    height: 3vw;
+    color: var(--primary-color);
+}
+
+.item h3{
+    padding: 1vw 0;
+    font-weight: 900;
+}
+
+.item p{
+    line-height: 150%;
+    color: #ccc;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+
+}
