@@ -296,7 +296,7 @@
     .navContent{
         align-items: center;
         width: 90%;
-        padding: 1vw 5%;
+        padding: 0 5%;
     }
     .navLink.active::after{
         width: 20%;
@@ -308,7 +308,7 @@
     }
     .logoImg{
         width: 30vw;
-        height: 8vw;
+        height: 14vw;
     }
     
     .links a{
@@ -443,7 +443,7 @@
     }
     .logoImg{
         width: 30vw;
-        height: 10vw;
+        height: 20vw;
     }
     .noIcon{
         height: 5vw;

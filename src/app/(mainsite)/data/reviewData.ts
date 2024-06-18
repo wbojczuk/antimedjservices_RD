@@ -1,53 +1,40 @@
 const reviewData: reviewType[] = [
     {
-        name: "Johnny Appleseed",
+        name: "Melanie, M",
         role: "Homeowner",
         title: "Best Work Ever!",
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ab quas unde laudantium veniam itaque vel nam aspernatur ipsa? Cum iusto voluptates itaque assumenda illum molestiae pariatur quos sit hic.
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor.`
+        desc: `Great DJ! Very professional and will tailor the music to your event. Would definitely recommend Anytime DJ Service.
+`
     },
     {
-        name: "Johnny Appleseed",
+        name: "Austin, W",
         role: "Homeowner",
         title: "Best Work Ever!",
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ab quas unde laudantium veniam itaque vel nam aspernatur ipsa? Cum iusto voluptates itaque assumenda illum molestiae pariatur quos sit hic.
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor.`
+        desc: `Anytime means anytime, will come out and provide a musical experience tailored to yours and your guests tastes. Would definitely recommend to anyone who needs some DJ services`
     },
     {
-        name: "Johnny Appleseed",
+        name: "Dean, Z",
         role: "Homeowner",
         title: "Best Work Ever!",
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ab quas unde laudantium veniam itaque vel nam aspernatur ipsa? Cum iusto voluptates itaque assumenda illum molestiae pariatur quos sit hic.
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor.`
+        desc: `Shane was wonderful! Very knowledgeable and really knew his stuff.I recommend you call anytime entertainment for your DJing needs!`
     },
     {
-        name: "Johnny Appleseed",
+        name: "Scott, L",
         role: "Homeowner",
         title: "Best Work Ever!",
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor.`
+        desc: `Best in providing a large array of music from past to present. Any style of pop, rock, to country.. Make your choice the best choice with "Anytime DJ Service"`
     },
     {
-        name: "Johnny Appleseed",
+        name: "Hey, H",
         role: "Homeowner",
         title: "Best Work Ever!",
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ab quas unde laudantium veniam itaque vel nam aspernatur ipsa?
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor`
+        desc: `Best dj around me and my family loved him`
     },
     {
-        name: "Johnny Appleseed",
+        name: "Jenn, M",
         role: "Homeowner",
         title: "Best Work Ever!",
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ab quas unde laudantium veniam itaque vel nam aspernatur ipsa? Cum iusto voluptates itaque assumenda illum molestiae pariatur quos sit hic.
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt molestiae delectus rerum beatae, maiores dolor.`
+        desc: `What a great couple!! Great music selection and great price`
     },
 ]
 

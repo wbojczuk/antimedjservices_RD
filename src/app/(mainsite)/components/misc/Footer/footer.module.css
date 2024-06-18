@@ -99,9 +99,9 @@
         padding-top: 5vw;
     }
     .content{
-        width: 75%;
+        width: 95%;
         padding-bottom: 4vw;
-        margin: 0 12.5%;
+        margin: 0 2.5%;
         flex-direction: column;
         align-items: center;
         gap: 4vw;
@@ -128,6 +128,7 @@
     
     .contactItem{
         gap: 0.8vw;
+    max-width: 35vw;
     }
     
     .contactItem svg{
@@ -181,7 +182,9 @@
     }
     
     .contactItem{
+        text-align: left;
         gap: 1.5vw;
+        max-width: 50vw;
     }
     
     .contactItem svg{

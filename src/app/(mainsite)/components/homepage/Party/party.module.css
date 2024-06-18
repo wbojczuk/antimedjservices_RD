@@ -1,6 +1,6 @@
 .party{
     position: relative;
-    padding: calc(var(--section-padding-top) * 2) 0;
+    padding: calc(var(--section-padding-top) * 4) 0;
     color: white;
 }
 .party h2{
@@ -22,10 +22,29 @@
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
-
+    .party h2{
+        font-size: 4.5rem;
+    }
+    
+    .party p{
+        padding: 4vw 30%;
+        text-align: center;
+        line-height: 150%;
+        font-size: 1.2rem;
+    }
 }
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-
+    .party h2{
+        font-size: 4.5rem;
+        padding: 0 20%;
+    }
+    
+    .party p{
+        padding: 8vw 15%;
+        text-align: center;
+        line-height: 150%;
+        font-size: 1.4rem;
+    }
 }
