@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import {Autoplay} from "swiper/modules"
 import Link from "next/link"
 import reviewData from "@/app/(mainsite)/data/reviewData"
+import LeaveReviewButton from "./LeaveReviewButton/LeaveReviewButton";
 
 export default function InlineReviews() {
 
@@ -43,7 +44,7 @@ export default function InlineReviews() {
            </Swiper>
         </div>
         <div className={`center ${styles.cta}`}>
-            <a target="_blank" className="main-link" href="https://maps.app.goo.gl/izKbLdH2H9c3w5DFA">Leave Review</a>
+            <LeaveReviewButton facebook="https://www.facebook.com/profile.php?id=61552474031349&sk=reviews" google="https://g.page/r/CUIvrZRDPNDOEBM/review" />
             <Link className="main-link" href={"/contact"}>Contact</Link>
         </div>
         <img src="/img/reviews.png" aria-hidden className="bg-img" />
