@@ -1,3 +1,7 @@
+import AboutContent from "@/app/(mainsite)/components/aboutpage/AboutContent/AboutContent"
+import InlineReviews from "@/app/(mainsite)/components/homepage/InlineReviews/InlineReviews"
+import ServiceArea from "@/app/(mainsite)/components/homepage/ServiceArea/ServiceArea"
+import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -26,7 +30,10 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 export default function AboutPage(){
 	 return(
 	 	 <>
-
+			<PageTitle pageTitle="About" />
+			<AboutContent />
+			<InlineReviews />
+			<ServiceArea />
 	 	 </>
 	 )
 }
