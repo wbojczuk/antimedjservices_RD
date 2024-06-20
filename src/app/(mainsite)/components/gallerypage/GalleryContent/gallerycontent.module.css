@@ -2,15 +2,37 @@
     position: relative;
     padding: var(--section-padding-top) 10%;
     background-color: var(--dark-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:5vw 10%;
 }
 
-.img{
-    width: 40%;
+.item{
+    display: inline-block;
+    width: 35%;
+    position: relative;
+    text-decoration: none;
+}
+
+.item h3{
+    margin: 0.5vw 0;
+    text-align: center;
+    color: white;
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    
+}
+
+.item img{
+    width: 100%;
     aspect-ratio: 1/0.7;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
-    margin: 2.5vw 5%;
+    margin: 1vw 0;
 }
 
 
@@ -34,6 +56,11 @@
 @media only screen and (max-width: 649px){
     .galleryContent{
         padding: var(--section-padding-top) 10%;
+        gap:15vw
+    }
+
+    .item{
+        width: 100%;
     }
     
     .img{
