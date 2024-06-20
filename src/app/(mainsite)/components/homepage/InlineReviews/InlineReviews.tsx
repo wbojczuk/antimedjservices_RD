@@ -6,6 +6,7 @@ import {Autoplay} from "swiper/modules"
 import Link from "next/link"
 import reviewData from "@/app/(mainsite)/data/reviewData"
 import LeaveReviewButton from "./LeaveReviewButton/LeaveReviewButton";
+import SocialButton from "./SocialsButton/LeaveReviewButton";
 
 export default function InlineReviews() {
 
@@ -45,7 +46,7 @@ export default function InlineReviews() {
         </div>
         <div className={`center ${styles.cta}`}>
             <LeaveReviewButton facebook="https://www.facebook.com/profile.php?id=61552474031349&sk=reviews" google="https://g.page/r/CUIvrZRDPNDOEBM/review" />
-            <Link className="main-link" href={"/contact"}>Contact</Link>
+           <SocialButton google="https://g.co/kgs/bj9aMXS" facebook="https://www.facebook.com/profile.php?id=61552474031349" />
         </div>
         <img src="/img/reviews.png" aria-hidden className="bg-img" />
         <div className="shader"></div>
