@@ -31,7 +31,7 @@ const galleryImgs: galleryData[] = [
     title:"DJ gig Port Clinton on the water"
 },
 {
-    img: "/img/gallery/brew1.png",
+    img: "/img/gallery/brew2.png",
     url: "https://photos.app.goo.gl/vwLXRnUftGTTtonS6",
     title:"brew bar 11-24-23"
 },
