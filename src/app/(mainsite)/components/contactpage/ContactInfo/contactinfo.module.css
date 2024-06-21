@@ -1,0 +1,149 @@
+.contactInfo{
+    padding: var(--section-padding-top) 15%;
+    color: var(--secondary-text-color);
+    position: relative;
+}
+
+.stuffWrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.textContent{
+    padding-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contactInfo h2{
+    font-size: 4.5rem;
+    text-align: center;
+    padding: 0 15% 4vw 15%;
+    color: var(--primary-heading);
+   }
+
+.textContent p{
+    padding-bottom:1vw;
+    width: 85%;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 180%;
+    border-bottom: 4px dashed #fff;
+}
+
+.textContent h4{
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 1vw;
+    font-size: 1.2rem;
+}
+
+.textContent .contactItem:nth-child(2){
+    padding-top: 2vw !important;
+}
+
+.textContent .contactItem{
+    
+    padding-top: 1vw ;
+}
+
+.textContent .contactItem svg{
+    color: var(--primary-color);
+}
+
+.contactItem{
+    display: inline-flex;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1vw;
+    font-size: 1.1rem;
+    margin: 0.5vw 0;
+    padding-right: 35%;
+}
+
+.contactItem svg{
+    color: var(--secondary-text-color);
+    width: 3vw;
+    height: 3vw;
+    flex: none;
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .stuffWrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4vw;
+    }
+    .contactInfo{
+        padding: var(--section-padding-top) 2.5%;
+    }
+    .textContent .contactItem:nth-child(2){
+        padding-top: 4vw !important;
+    }
+    .textContent{
+        width: 75%;
+    }
+    .textContent p{
+        width: 100%;
+    }
+    .contactItem svg{
+        width: 4vw;
+        height: 4vw;
+    }
+    .contactInfo h2{
+        font-size: 4.5rem;
+        padding: 0 5% 6vw 5%;
+       }
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .contactInfo{
+        padding: var(--section-padding-top) 15%;
+        
+    }
+    .contactInfo h2{
+        font-size: 3rem;
+        padding: 0 2.5% 8vw 2.5%;
+       }
+
+    .stuffWrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8vw
+    }
+    
+    .textContent{
+        padding-top: 8vw;
+        /* align-items: center; */
+    }
+    
+    .textContent p{
+        margin: 2vw 0 3vw;
+        width: 100%;
+        font-size: 1.2rem;
+        /* text-align: center; */
+        line-height: 200%;
+    }
+    
+    .contactItem{
+        gap: 2vw;
+        font-size: 1.2rem;
+        margin: 2vw 0;
+        padding-right: 10%;
+    }
+    
+    .contactItem svg{
+        width: 8vw;
+        height: 8vw;
+    }
+    
+}

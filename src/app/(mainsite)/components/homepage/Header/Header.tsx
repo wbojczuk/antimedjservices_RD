@@ -11,7 +11,7 @@ return (
     </p>
 
     <div className={`center ${styles.linkWrapper}`}>
-        <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>Call / Text</Link>
+        <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>Call Us</Link>
     </div>
  
  <video controls={false} className='bg-img' loop autoPlay muted>
