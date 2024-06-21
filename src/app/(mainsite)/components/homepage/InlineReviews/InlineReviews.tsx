@@ -48,7 +48,7 @@ export default function InlineReviews() {
             <LeaveReviewButton facebook="https://www.facebook.com/profile.php?id=61552474031349&sk=reviews" google="https://g.page/r/CUIvrZRDPNDOEBM/review" />
            <SocialButton google="https://g.co/kgs/bj9aMXS" facebook="https://www.facebook.com/profile.php?id=61552474031349" />
         </div>
-        <img src="/img/reviews.png" aria-hidden className="bg-img" />
+        <img src="/img/reviews.webp" aria-hidden className="bg-img" />
         <div className="shader"></div>
     </section>
   )

@@ -12,7 +12,7 @@ return (
 
     <div className={styles.itemWrapper}>
         <div  className={styles.item}>
-       <img src="/img/whatwedo1.png" alt="people partying" />
+       <img src="/img/whatwedo1.webp" alt="people partying" />
            <div>
            <h3>Private Parties</h3>
            <p>Turn your private parties into unforgettable events with Anytime DJ Services. Our dynamic DJs bring the energy and excitement, ensuring every guest has a fantastic time.
@@ -24,7 +24,7 @@ return (
         </div>
 
         <div className={styles.item}>
-        <img src="/img/whatwedo2.png" alt="people partying" />
+        <img src="/img/whatwedo2.webp" alt="people partying" />
         <div>
            <h3>Wedding Parties</h3>
            <p>Make your special day unforgettable with Anytime DJ Services. From romantic ceremonies to lively receptions, our DJs create the perfect soundtrack for your love story.
@@ -36,7 +36,7 @@ return (
         </div>
 
         <div className={styles.item}>
-        <img src="/img/whatwedo3.png" alt="people partying" />
+        <img src="/img/whatwedo3.webp" alt="people partying" />
         <div>
            <h3>School Events DJ Services</h3>
            <p>Elevate your school events with Anytime DJ Services. Our DJs bring the right vibe, ensuring students enjoy every moment of the occasion.
@@ -48,7 +48,7 @@ return (
         </div>
 
         <div className={styles.item}>
-        <img src="/img/whatwedo4.png" alt="people partying" />
+        <img src="/img/whatwedo4.webp" alt="people partying" />
         <div>
            <h3>Bar Events</h3>
            <p>Take your bar events to the next level with Anytime DJ Services. Our DJs set the mood, keeping patrons entertained and the party going all night long.
