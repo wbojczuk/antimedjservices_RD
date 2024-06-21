@@ -14,7 +14,7 @@ return (
         <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>Call / Text</Link>
     </div>
  
- <video className='bg-img' loop autoPlay muted>
+ <video controls={false} className='bg-img' loop autoPlay muted>
        <source src={"/img/header-vid.mp4"} type="video/mp4" />
 </video>
 
