@@ -10,7 +10,7 @@ import WhatWeDo from "@/app/(mainsite)/components/homepage/WhatWeDo/WhatWeDo";
 export default function Home() {
   return (
     <>
-      <InfiniteRibbon content={<><span>In need of a DJ? Whatever the occasion we offer professional service at affordable prices!</span><span>In need of a DJ? Whatever the occasion we offer professional service at affordable prices!</span><span>In need of a DJ? Whatever the occasion we offer professional service at affordable prices!</span></>} />
+      <InfiniteRibbon content={<><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span></>} />
       <Header />
       <Ensure />
       <WhatWeDo />
