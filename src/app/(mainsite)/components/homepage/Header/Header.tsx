@@ -1,4 +1,5 @@
 "use client"
+import InfiniteRibbon from '../InfiniteRibbon2/InfiniteRibbon';
 import styles from './header.module.css';
 import Link from 'next/link';
 
@@ -7,6 +8,10 @@ return (
  <header className={styles.header}>
 
     <h1>The Sound of Your Event<span className="highlight">.</span></h1>
+<div className="center">
+<InfiniteRibbon content={<><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span></>} />
+</div>
+    
     <p>We are fully licensed and insured, and we can travel up to 60 miles from our location at 1041 South Broadway Street #894, Geneva, Ohio 44041.
         {/* <br /> <strong>Soon to be an LLC, trademarked and registered with the BBB!</strong> */}
     </p>
