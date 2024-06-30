@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Header(){
 return (
  <header className={styles.header}>
-
+    <h2>No Power<span className="highlight">?</span> No worries<span className="highlight">!</span> We carry a generator so you can always have a good time</h2>
     <h1>The Sound of Your Event<span className="highlight">.</span></h1>
 <div className="center">
 <InfiniteRibbon content={<><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span></>} />
