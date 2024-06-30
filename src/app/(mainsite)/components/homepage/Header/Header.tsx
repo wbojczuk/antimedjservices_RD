@@ -18,6 +18,7 @@ return (
 
     <div className={`center ${styles.linkWrapper}`}>
         <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>Call / Text</Link>
+        <Link className='main-link' target='_blank' href={`https://square.link/u/amu9Wx28`}>Pay Now</Link>
     </div>
  
  <video controls={false} className='bg-img' loop autoPlay muted>
