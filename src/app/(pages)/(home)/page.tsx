@@ -1,3 +1,4 @@
+import BounceHouse from "@/app/(mainsite)/components/homepage/BounceHouse/BounceHouse";
 import Ensure from "@/app/(mainsite)/components/homepage/Ensure/Ensure";
 import Header from "@/app/(mainsite)/components/homepage/Header/Header";
 import InfiniteRibbon from "@/app/(mainsite)/components/homepage/InfiniteRibbon/InfiniteRibbon";
@@ -13,6 +14,7 @@ export default function Home() {
       <InfiniteRibbon content={<><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span></>} />
       <Header />
       <Ensure />
+      <BounceHouse />
       <WhatWeDo />
       <Party />
       <InlineReviews />
