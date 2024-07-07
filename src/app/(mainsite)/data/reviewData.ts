@@ -36,6 +36,30 @@ const reviewData: reviewType[] = [
         title: "Best Work Ever!",
         desc: `What a great couple!! Great music selection and great price`
     },
+    {
+        name: "Mike",
+        role: "Homeowner",
+        title: "Best Work Ever!",
+        desc: `Great job at the corner bar last night`
+    },
+    {
+        name: "Jeremy Fleck",
+        role: "Homeowner",
+        title: "Best Work Ever!",
+        desc: `Super awesome definitely recommend this experience to any important event..`
+    },
+    {
+        name: "alexandra robertson",
+        role: "Homeowner",
+        title: "Best Work Ever!",
+        desc: `Really good kinda and played anything requested`
+    },
+    {
+        name: "Mary Hamilton",
+        role: "Homeowner",
+        title: "Best Work Ever!",
+        desc: `Awesome DJ`
+    },
 ]
 
 export default reviewData

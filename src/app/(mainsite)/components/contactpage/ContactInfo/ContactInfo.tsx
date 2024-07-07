@@ -15,9 +15,9 @@ export default function ContactInfo() {
             <span>{process.env.NEXT_PUBLIC_PHONE_NUM_FORMATTED}</span>
           </a>
 
-          <a href={`tel:8003400683}`} className={styles.contactItem}>
+          <a href={`tel:8882505519}`} className={styles.contactItem}>
           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.28-.28.67-.36 1.02-.25c1.12.37 2.32.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02z"></path></svg>
-            <span>TOLL FREE: (800) 340-0683</span>
+            <span>TOLL FREE: (888) 2505-519</span>
           </a>
 
           <a href={`mailto:${process.env.NEXT_PUBLIC_EMAIL_ADDRESS}`} className={styles.contactItem}>
@@ -34,6 +34,14 @@ export default function ContactInfo() {
           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"></path></svg>
             <span>{process.env.NEXT_PUBLIC_BUSINESS_CITY_STATE}</span>
           </a>
+
+          <a href={`https://g.co/kgs/bj9aMXS`} target="_blank" className={styles.contactItem}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2m4.2 14.2L11 13V7h1.5v5.2l4.5 2.7z"></path></svg>
+                  <span><strong>Office Hours:</strong><br />
+                  Mon - Sat (9am - 10pm)<br />
+                  Sun (12pm - 5pm)
+                  </span>
+                </a>
 
           <a href={`https://g.co/kgs/bj9aMXS`} target="_blank" className={styles.contactItem}>
           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M32 376a56 56 0 0 0 56 56h336a56 56 0 0 0 56-56V222H32Zm66-76a30 30 0 0 1 30-30h48a30 30 0 0 1 30 30v20a30 30 0 0 1-30 30h-48a30 30 0 0 1-30-30ZM424 80H88a56 56 0 0 0-56 56v26h448v-26a56 56 0 0 0-56-56"></path></svg>
