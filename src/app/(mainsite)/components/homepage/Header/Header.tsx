@@ -12,7 +12,7 @@ return (
 <InfiniteRibbon content={<><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span><span>Whatever the occasion we offer professional service at affordable prices</span></>} />
 </div>
     
-    <p><strong>We are fully licensed and insured, able to add your event to our insurance</strong>, and we can travel up to 60 miles from our location at 15 N lake St Madison Ohio 44057.
+    <p><strong>We are fully licensed and insured, able to add your event to our insurance</strong>, and we can travel up to 60 miles from our location at 1041 South Broadway Street #894, Geneva, Ohio 44041.
         {/* <br /> <strong>Soon to be an LLC, trademarked and registered with the BBB!</strong> */}
     </p>
 
