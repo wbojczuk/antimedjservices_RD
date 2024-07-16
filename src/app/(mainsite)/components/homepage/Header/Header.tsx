@@ -17,7 +17,7 @@ return (
     </p>
 
     <div className={`center ${styles.linkWrapper}`}>
-        <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>Call Now</Link>
+        <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_TOLL_NUM}`}>Call Now</Link>
         <Link className='main-link' target='_blank' href={`https://square.link/u/ZbsLsexX`}>Pay Now</Link>
     </div>
     <div className="center"><h2 className={styles.installment} style={{fontSize: "2rem"}}>We offer payment in installments to make a good time affordable to everyone!</h2></div>
