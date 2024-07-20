@@ -45,6 +45,11 @@ const galleryImgs: galleryData[] = [
     url: "https://photos.app.goo.gl/qK7PvjR8qZCC9QPZ9",
     title:"Wedding"
 },
+{
+    img: "/img/gallery/karaoke.png",
+    url: "https://photos.app.goo.gl/mL6qVPxW8RMDjAJC7",
+    title:"Karaoke Corner Bar"
+},
 ]
 
 export default galleryImgs
