@@ -25,6 +25,7 @@ export default function Navbar() {
   const galleryRef: any = useRef()
   const servicesRef: any = useRef()
   const pricesRef: any = useRef()
+  const contractRef: any = useRef()
 
   const hamburgerRef: any = useRef()
   const contentRef: any = useRef()
@@ -59,6 +60,10 @@ export default function Navbar() {
     {
       triggers: ["/prices"],
       ref: pricesRef
+    },
+    {
+      triggers: ["/contract"],
+      ref: contractRef
     }
     
   ]
@@ -224,6 +229,13 @@ export default function Navbar() {
           url="/gallery"
           icon={<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"><path fill="currentColor" d="M3 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 11l3.5-4.5l2.5 3l3.5-4.5l4.5 6zM16 2a2 2 0 0 1 2 2H2a2 2 0 0 1 2-2z"></path></svg>}
           ref={galleryRef}
+          />
+
+<NavOption
+          title="Sample Contract"
+          url="/contract"
+          icon={<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M13 9V3.5L18.5 9M6 2c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"></path></svg>}
+          ref={contractRef}
           />
 
 <NavOption
