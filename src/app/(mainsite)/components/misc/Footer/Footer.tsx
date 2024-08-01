@@ -6,9 +6,9 @@ import Link from "next/link"
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      {/* <div className="center">
+      <div className="center">
         <img className={styles.bbb} src="/img/bbb.png" alt="bbb logo" />
-      </div> */}
+      </div>
       <div className={styles.content}>
 
         <img src="/img/logo.webp" width={512} height={512} className={styles.logo} alt="Main Logo"/>
