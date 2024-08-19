@@ -45,8 +45,8 @@ export default function InlineReviews() {
            </Swiper>
         </div>
         <div className={`center ${styles.cta}`}>
-            <LeaveReviewButton facebook="https://www.facebook.com/profile.php?id=61552474031349&sk=reviews" google="https://g.page/r/CXr9teYV0Za0EBM/review" />
-           <SocialButton google="https://g.co/kgs/Z8nZ6c9" facebook="https://www.facebook.com/profile.php?id=61552474031349" />
+            <LeaveReviewButton facebook="https://www.facebook.com/profile.php?id=61552474031349&sk=reviews" google="https://g.page/r/CWAp-UpOIuAYEBM/review" />
+           <SocialButton google="https://maps.app.goo.gl/ZEK9tNYxkMz5YHBu6" facebook="https://www.facebook.com/profile.php?id=61552474031349" />
         </div>
         <img src="/img/reviews.webp" aria-hidden className="bg-img" />
         <div className="shader"></div>

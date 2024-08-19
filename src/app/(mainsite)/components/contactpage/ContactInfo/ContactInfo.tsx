@@ -37,12 +37,12 @@ export default function ContactInfo() {
             <span>FAX: (440) 466-0005</span>
           </a>
 
-          <a href={`https://g.co/kgs/bj9aMXS`} target="_blank" className={styles.contactItem}>
+          <a href={`https://maps.app.goo.gl/xEFszSVP2huvNp1s8`} target="_blank" className={styles.contactItem}>
           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"></path></svg>
             <span>{process.env.NEXT_PUBLIC_BUSINESS_CITY_STATE}</span>
           </a>
 
-          <a href={`https://g.co/kgs/bj9aMXS`} target="_blank" className={styles.contactItem}>
+          <a href={`https://maps.app.goo.gl/xEFszSVP2huvNp1s8`} target="_blank" className={styles.contactItem}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2m4.2 14.2L11 13V7h1.5v5.2l4.5 2.7z"></path></svg>
                   <span><strong>Office Hours:</strong><br />
                   Mon - Sat (9am - 10pm)<br />
@@ -50,7 +50,7 @@ export default function ContactInfo() {
                   </span>
                 </a>
 
-          <a href={`https://g.co/kgs/bj9aMXS`} target="_blank" className={styles.contactItem}>
+          <a href={`https://maps.app.goo.gl/xEFszSVP2huvNp1s8`} target="_blank" className={styles.contactItem}>
           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M32 376a56 56 0 0 0 56 56h336a56 56 0 0 0 56-56V222H32Zm66-76a30 30 0 0 1 30-30h48a30 30 0 0 1 30 30v20a30 30 0 0 1-30 30h-48a30 30 0 0 1-30-30ZM424 80H88a56 56 0 0 0-56 56v26h448v-26a56 56 0 0 0-56-56"></path></svg>
             <span>We accept all major credit cards, Chime and Cash App.
 <br /><br />
