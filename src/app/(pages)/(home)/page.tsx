@@ -15,7 +15,7 @@ export default function Home() {
       <InfiniteRibbon content={<><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span><span>Let the party come to you</span></>} />
       <Header />
       <Ensure />
-      <BounceHouse />
+      {/* <BounceHouse /> */}
       <WhatWeDo />
       <Party />
       <InlineReviews />
