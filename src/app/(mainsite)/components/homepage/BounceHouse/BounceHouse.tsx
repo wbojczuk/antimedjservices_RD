@@ -7,12 +7,12 @@ export default function BounceHouse(){
 return (
  <div className={styles.party}>
 
-    <h2>Need A Bounce House<span className="highlight">?</span></h2>
-    <p>We’ve got you covered! Ask us about getting a bounce house to make your party an unforgettable experience!</p>
+    <h2>Request A Song<span className="highlight">!</span></h2>
+    <p>Scan to request a song!</p>
     <div className={`center ${styles.linkWrapper}`}>
-    <Link className='main-link' href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>Call Now</Link>
+    <img src="/img/qrcode.webp" alt="qr code to scan" className={styles.img} />
     </div>
     <div className="shader-dark-2" ></div>
-    <img src='/img/bouncehouse.png' alt='Image of people partying' className='bg-img' />
+    <img src='/img/whatwedo1.webp' alt='Image of people partying' className='bg-img' />
  </div>
 )};
