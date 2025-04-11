@@ -57,10 +57,10 @@ export default function Navbar() {
       triggers: ["/", "/home"],
       ref: homeRef
     },
-    {
-      triggers: ["/prices"],
-      ref: pricesRef
-    },
+    // {
+    //   triggers: ["/prices"],
+    //   ref: pricesRef
+    // },
     {
       triggers: ["/contract"],
       ref: contractRef
