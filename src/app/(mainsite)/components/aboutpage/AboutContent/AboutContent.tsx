@@ -8,7 +8,7 @@ return (
     
         
     <h2>About Us<span className="highlight">.</span></h2>
-    <p className={styles.p}>Drawing on 15+ years of DJ expertise, Anytime DJ Services promises exceptional entertainment. Our stellar Google reviews speak volumes about our dedication to customer satisfaction. Fully insured and serving within a 60-mile radius of our base at 1041 South Broadway Street # 894 Geneva Ohio 44041, we specialize in corporate events, weddings, private parties, and more.</p>
+    <p className={styles.p}>Drawing on 15+ years of DJ expertise, Anytime DJ Services promises exceptional entertainment. Our stellar Google reviews speak volumes about our dedication to customer satisfaction. Fully insured and serving within a 60-mile radius of our base at {process.env.NEXT_PUBLIC_BUSINESS_CITY_STATE}, we specialize in corporate events, weddings, private parties, and more.</p>
 
     <div className={styles.itemWrapper}>
         <div className={styles.item}>
