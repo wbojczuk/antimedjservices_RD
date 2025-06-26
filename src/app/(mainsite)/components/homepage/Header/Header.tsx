@@ -22,7 +22,7 @@ return (
     </div>
     <div className="center"><h2 className={styles.installment} style={{fontSize: "2rem"}}>We offer payment in installments to make a good time affordable to everyone!</h2></div>
  
- <video controls={false} className='bg-img' loop autoPlay muted>
+ <video controls={false} className='bg-img' loop autoPlay muted playsInline >
        <source src={"/img/header-vid.mp4"} type="video/mp4" />
 </video>
 
