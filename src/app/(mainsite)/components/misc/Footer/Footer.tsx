@@ -75,7 +75,7 @@ export default function Footer() {
 
                 <aside className={`${styles.contactItem} ${styles.listItem}`}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1792 1792"><path fill="currentColor" d="M288 384q66 0 113 47t47 113v1088q0 66-47 113t-113 47H160q-66 0-113-47T0 1632V544q0-66 47-113t113-47zm1376 163q58 34 93 93t35 128v768q0 106-75 181t-181 75H672q-66 0-113-47t-47-113V96q0-40 28-68t68-28h672q40 0 88 20t76 48l152 152q28 28 48 76t20 88zm-736 989v-128q0-14-9-23t-23-9H768q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23m0-256v-128q0-14-9-23t-23-9H768q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23m0-256V896q0-14-9-23t-23-9H768q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23m256 512v-128q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23m0-256v-128q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23m0-256V896q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23m256 512v-128q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23m0-256v-128q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23m0-256V896q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23m96-384V384h-160q-40 0-68-28t-28-68V128H640v512z"></path></svg>
-                  <a href={"tel:4404660005" } target="_blank">FAX: (440) 466-0005</a>
+                   <a href={`tel:${process.env.NEXT_PUBLIC_TOLL_NUM}`} target="_blank">FAX: {process.env.NEXT_PUBLIC_TOLL_NUM_FORMATTED}</a>
                 </aside>
                 
                 <aside className={`${styles.contactItem} ${styles.listItem}`}>
@@ -90,7 +90,8 @@ export default function Footer() {
                 <aside className={`${styles.contactItem} ${styles.listItem}`}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2m4.2 14.2L11 13V7h1.5v5.2l4.5 2.7z"></path></svg>
                   <a href="https://g.co/kgs/bj9aMXS" target="_blank"><strong>Office Hours:</strong><br />
-                  24 hours <br /> 7 days a week
+                  Mon - Sat (9am - 10pm)<br />
+                  Sun (12pm - 5pm)
                   </a>
                 </aside>
 
