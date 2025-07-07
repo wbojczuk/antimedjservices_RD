@@ -50,6 +50,11 @@ const galleryImgs: galleryData[] = [
     url: "https://photos.app.goo.gl/mL6qVPxW8RMDjAJC7",
     title:"Karaoke Corner Bar"
 },
+{
+    img: "/img/gallery/dj.jpg",
+    url: "",
+    title:"Our Ad on the city sign!"
+},
 ]
 
 export default galleryImgs

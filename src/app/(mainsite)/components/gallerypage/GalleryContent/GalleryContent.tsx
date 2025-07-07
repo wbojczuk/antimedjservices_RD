@@ -7,9 +7,9 @@ export default function GalleryContent(){
             <a key={i} href={data.url} target='_blank' className={styles.item}>
                 <img src={data.img} aria-hidden />
                 <h3 className={styles.title}>{data.title}</h3>
-                <div className={`center ${styles.linkWrapper}`}>
+               {(data.url != "")&&  <div className={`center ${styles.linkWrapper}`}>
                     <button className='main-link' >Click For More</button>
-                </div>
+                </div>}
             </a>
         )
     })
