@@ -21,9 +21,9 @@ return (
         <Link className='main-link' target='_blank' href={`https://square.link/u/ZbsLsexX`}>Pay Now</Link>
     </div>
     <div className="center"><h2 className={styles.installment} style={{fontSize: "2rem"}}>We offer payment in installments to make a good time affordable to everyone!</h2></div>
- 
+ <div className="shader" style={{backgroundColor: "rgba(0,0,0,0.5)"}}></div>
  <video controls={false} className='bg-img' loop autoPlay muted playsInline >
-       <source src={"/img/header-vid.mp4"} type="video/mp4" />
+       <source src={"/img/header-vid2.mov"} type="video/mp4" />
 </video>
 
  </header>
