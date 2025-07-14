@@ -1,3 +1,4 @@
+import Prices from "@/app/(mainsite)/components/pricespage/Prices/Prices"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -26,11 +27,7 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 export default function PricesPage(){
 	 return(
 	 	 <>
-			<div className="center"><h1 style={{color: "white", margin: "4vw 0"}}>Prices are subject to change</h1></div>
-
-			<div className="center">
-			<img src="/img/prices.jpg" aria-hidden style={{width: "60%"}} />
-			</div>
+			<Prices />
 	 	 </>
 	 )
 }
