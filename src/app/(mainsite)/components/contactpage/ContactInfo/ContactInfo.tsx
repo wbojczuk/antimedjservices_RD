@@ -6,7 +6,7 @@ export default function ContactInfo() {
     <section className={styles.contactInfo}>
         <div className={styles.stuffWrapper}>
         <div className={styles.textContent}>
-          <p>At Anytime DJ Service, we’re fully insured and ready to bring the party to you! Our coverage spans a 60-mile radius from Ransomville, New York. Whether your event is local or requires a bit of travel, we’re ready to provide exceptional DJ services wherever your venue may be.</p>
+          <p>At Anytime DJ Service, we’re fully insured and ready to bring the party to you! Our coverage spans a 60-mile radius from Ransomville New York, Pennsylvania and Ohio! Whether your event is local or requires a bit of travel, we’re ready to provide exceptional DJ services wherever your venue may be.</p>
 
           
 
